@@ -1,0 +1,60 @@
+Easy to Find the Car You Want
+========================================================
+author: Sangdon, Choi
+date: 2018-10-30
+autosize: true
+
+Agenda
+========================================================
+
+- Introduce
+- Based Data
+- How to use it?
+- Summary
+
+Introduction
+========================================================
+
+This application helps you find your desired car easily. 
+
+
+![Main screenshot](Capture.png)
+
+Based Data
+========================================================
+
+The data in this application used the 'mtcars' contained in the R studio.
+
+
+```{r, echo=FALSE}
+data(mtcars)
+head(mtcars,5)
+```
+
+
+How to use it?
+========================================================
+
+We offer eight options to find the car you want.
+You just need to adjust for each options.
+
+There are eight options:
+
+- Miles Per Gallon
+- Number of users
+- Displacement
+- Gros Horspower
+- Transmission
+- EngineType
+- Quarter Mile
+- Weight
+
+
+Summary
+========================================================
+
+Easy to Find the Car You Want could be Access by this link: https://nodgnas.shinyapps.io/server/
+
+All source code this project : https://github.com/NoDgnaS/Coursera-course9
+
+
